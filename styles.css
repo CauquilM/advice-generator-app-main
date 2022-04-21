@@ -1,0 +1,108 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+/* Body */
+body {
+  background: #202632;
+  font-family: "Manrope", sans-serif;
+}
+
+/* Container */
+#container {
+  height: 90vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  padding: 0px 20px 40px 20px;
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  background: #313a49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4%;
+}
+
+/* Text*/
+#advice-num {
+  padding-top: 10px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #4bd494;
+}
+
+#advice-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 10px;
+  padding: 0px 15px 15px 15px;
+}
+
+/* svg */
+
+#divider {
+  width: 400px;
+}
+
+#button {
+  background: #53ffab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 90%;
+  padding: 17px;
+  border-width: 0px;
+  border-radius: 50%;
+  outline: none;
+}
+
+#button:hover {
+  box-shadow: 0px 0px 40px rgba(46, 229, 157, 0.4);
+}
+
+/* Credits */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+   color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media all and (max-width: 566px) {
+  #card {
+    width: 85%;
+    padding: 0px 0px 40px 0px;
+  }
+
+  #advice-num {
+    letter-spacing: 3px;
+    font-size: 1em;
+  }
+
+  #advice-text {
+    font-size: 1.2em;
+    margin-top: 10px;
+    padding: 0px 15% 20px 15%;
+  }
+
+  #divider {
+    width: 75%;
+  }
+
+  #button {
+    top: 90%;
+    padding: 17px;
+  }
+}
